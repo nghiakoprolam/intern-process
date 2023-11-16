@@ -1,0 +1,79 @@
+/* reset margin, padding  */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* dung de do div */
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  /* border: 2px solid blue; */
+  height: 500px;
+  /* width: 3724px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* viet giong dong duoi logo cho gon  */
+  background-image: url("./banner.jpg");
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  text-align: right;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  text-decoration: none;
+  margin-left: 5;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 60px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+.banner .logo {
+  background: url("./hapoERP.png") center center no-repeat;
+  margin-top: 40px;
+  height: 100px;
+}
+.banner .text-logo {
+  text-align: center;
+  font-size: 20px;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 15px 7px;
+  border-radius: 20px;
+  border: 1px solid green;
+  margin-top: 10px;
+  cursor: pointer;
+  /* chuyen thanh hinh ban tay khi tro vao*/
+}
+
+.content-center .left, .content-center .right, .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.content-center span {
+  display: block;
+  font-size: 20px;
+}
+.content-center img {
+  width: 30px;
+  height: 30px;
+}
